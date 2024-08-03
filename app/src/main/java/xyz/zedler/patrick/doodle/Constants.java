@@ -41,6 +41,7 @@ import xyz.zedler.patrick.doodle.wallpaper.ReikoWallpaper;
 import xyz.zedler.patrick.doodle.wallpaper.SandWallpaper;
 import xyz.zedler.patrick.doodle.wallpaper.StoneWallpaper;
 import xyz.zedler.patrick.doodle.wallpaper.WaterWallpaper;
+//import xyz.zedler.patricl.doodle.wallpaper.MelonWallpaper;
 
 public final class Constants {
 
