@@ -41,7 +41,7 @@ import xyz.zedler.patrick.doodle.wallpaper.ReikoWallpaper;
 import xyz.zedler.patrick.doodle.wallpaper.SandWallpaper;
 import xyz.zedler.patrick.doodle.wallpaper.StoneWallpaper;
 import xyz.zedler.patrick.doodle.wallpaper.WaterWallpaper;
-//import xyz.zedler.patricl.doodle.wallpaper.MelonWallpaper;
+import xyz.zedler.patricl.doodle.wallpaper.MelonWallpaper;
 
 public final class Constants {
 
@@ -186,6 +186,9 @@ public final class Constants {
         return new FogWallpaper();
       case WALLPAPER.LEAVES:
         return new LeavesWallpaper();
+        //EXPERIMENT
+      case WALLPAPER.MELON:
+        return new MelonWallpaper();
       default:
         return new PixelWallpaper();
     }
@@ -231,7 +234,9 @@ public final class Constants {
 
         WALLPAPER.LEAFY,
         WALLPAPER.FOG,
-        WALLPAPER.LEAVES
+        WALLPAPER.LEAVES,
+
+        WALLPAPER.MELON
     };
   }
 
@@ -253,6 +258,8 @@ public final class Constants {
     public static final String LEAFY = "leafy";
     public static final String FOG = "fog";
     public static final String LEAVES = "leaves";
+
+    public static final String MELON = "melon";
   }
 
   public static final class NIGHT_MODE {
