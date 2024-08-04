@@ -24,24 +24,24 @@ import xyz.zedler.patrick.doodle.Constants.WALLPAPER;
 import xyz.zedler.patrick.doodle.R;
 import xyz.zedler.patrick.doodle.drawable.SvgDrawable;
 
-public class StoneWallpaper extends BaseWallpaper {
+public class MelonWallpaper extends BaseWallpaper {
 
   @NonNull
   @Override
   public String getName() {
-    return WALLPAPER.STONE;
+    return WALLPAPER.MELON;
   }
 
   @Override
   public int getThumbnailResId() {
-    return R.drawable.selection_stone;
+    return R.drawable.selection_melon;
   }
 
   @Override
   public SvgDrawable getPreparedSvg(SvgDrawable svgDrawable, int variant, boolean isNightMode) {
-    svgDrawable.requireObjectById("sand").isRotatable = true;
-    svgDrawable.requireObjectById("kidney").isRotatable = true;
-    svgDrawable.requireObjectById("star").isRotatable = true;
+    svgDrawable.requireObjectById("top_melon").isRotatable = true;
+    svgDrawable.requireObjectById("btm_melon").isRotatable = true;
+    svgDrawable.requireObjectById("bitten").isRotatable = true;
     return svgDrawable;
   }
 
@@ -50,11 +50,11 @@ public class StoneWallpaper extends BaseWallpaper {
   public WallpaperVariant[] getVariants() {
     return new WallpaperVariant[]{
         new WallpaperVariant(
-            R.raw.wallpaper_stone,
-            "#e6efd7",
-            "#c4d6e4",
-            "#b49e5f",
-            new String[]{"#babba0", "#e4e6b4", "#a0a9b2"},
+            R.raw.wallpaper_melon,
+            "#f3ab36",
+            "#df735c",
+            "#365532",
+            new String[]{"#365532", "#d7a452", "#dd8900"},
             true,
             false
         )
@@ -66,11 +66,11 @@ public class StoneWallpaper extends BaseWallpaper {
   public WallpaperVariant[] getDarkVariants() {
     return new WallpaperVariant[]{
         new WallpaperVariant(
-            R.raw.wallpaper_stone_dark,
-            "#515339",
-            "#52482b",
-            "#171815",
-            new String[]{"#5e656c"},
+            R.raw.wallpaper_melon_dark,
+            "#192818",
+            "#bb3f25",
+            "#d7a452",
+            new String[]{"#192818"},
             false,
             true
         )
