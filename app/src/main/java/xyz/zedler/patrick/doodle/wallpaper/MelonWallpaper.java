@@ -1,5 +1,5 @@
 /*
- * This file is part of Doodle Android.
+ * This file is part of Doodle Android Experiemnts.
  *
  * Doodle Android is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with Doodle Android. If not, see <http://www.gnu.org/licenses/>.
  *
- * Copyright (c) 2019-2023 by Patrick Zedler
+ * Doodle Android is Copyright (c) 2019-2023 by Patrick Zedleer
  */
 
 package xyz.zedler.patrick.doodle.wallpaper;
